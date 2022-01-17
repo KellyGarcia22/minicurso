@@ -21,7 +21,7 @@ main {
 
 main > section img {
     height: 300px;
-    margin: 15px 0;
+    margin: 15 px 0;
     width: 300px;
 }
 
@@ -37,11 +37,20 @@ main > section button {
     line-height: 15px;
     padding: 9px 23px; 
     text-transform: uppercase;
+   }
    
-}
 #detalher-container {
-    font-weight: bold;
+    font-weight: bolder;
     list-style-type: none;
     height: 30px;
     width: 90%;
+
+    #detalhes-container > li {
+        align-items: baseline;
+        display: flex;
+    
+    #detalhes-container > li p {
+        color: white;
+    }
+    
 }
